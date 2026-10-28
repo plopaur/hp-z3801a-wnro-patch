@@ -7,12 +7,16 @@ that is 1024 weeks (about 19.6 years) too early.
 > **Status:** verified by disassembly, checksum checks and CPU emulation. **Not yet
 > tested on real hardware.** Keep your original EPROMs.
 
+**Download:** [Release v1.0](https://github.com/plopaur/hp-z3801a-wnro-patch/releases/tag/v1.0)
+(the patch script and this document as PDF).
+
 ## What's in this repository
 
 | File | Description |
 |---|---|
 | `wnro_patch.py` | Script that builds the patched firmware from your own copy of the original |
 | `README.md` | This document |
+| `md2pdf.py` | Script that renders this document as PDF (needs `reportlab`) |
 
 **No firmware images are included.** The Z3801A firmware is copyrighted by HP,
 including the patched versions, which are mostly HP's code. You need to supply

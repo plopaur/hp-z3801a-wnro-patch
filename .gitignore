@@ -2,4 +2,13 @@
 *.BIN
 *.bin
 
+# Python
+__pycache__/
+*.pyc
+.venv/
 
+# Generated documentation (published as release assets)
+*.pdf
+
+# macOS
+.DS_Store
